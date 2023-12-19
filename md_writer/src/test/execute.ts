@@ -3,8 +3,8 @@ import { TransformToMarkdown } from "../application/usecases/transform-to-markdo
 import { WriteMarkdownFile } from "../application/usecases/write-markdown-file";
 
 const input = [
-  { title: "First Part", body: "first part body" },
-  { title: "Second Part", body: "second part body" },
+  { title: "Markdown Writer", body: "This is a markdown writer" },
+  { title: "What encouraged me to do it?", body: "To create README.md faster" },
 ];
 
 const transformToMarkdown = new TransformToMarkdown();
